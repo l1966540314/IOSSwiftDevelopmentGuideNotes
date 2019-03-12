@@ -1,7 +1,8 @@
 git init 
 git  add  .
-git commit -m "first commit"
+git commit -m "demol"
 git remote add origin https://github.com/l1966540314/IOSSwiftDevelopmentGuideNotes.git
+git pull origin master
 git push -u origin master
 
 
@@ -10,5 +11,5 @@ $ rm -rf .git/
 
 
 
-git rm -rf --cached hexo-theme-matery
-git add hexo-theme-matery/*
+git rm -rf --cached TextFieldTextView
+git add TextFieldTextView/*
