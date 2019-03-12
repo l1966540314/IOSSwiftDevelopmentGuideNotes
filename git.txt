@@ -1,0 +1,14 @@
+git init 
+git  add  .
+git commit -m "first commit"
+git remote add origin https://github.com/l1966540314/IOSSwiftDevelopmentGuideNotes.git
+git push -u origin master
+
+
+find ./ -name .svn -exec rm -rf {} \;
+$ rm -rf .git/
+
+
+
+git rm -rf --cached hexo-theme-matery
+git add hexo-theme-matery/*
