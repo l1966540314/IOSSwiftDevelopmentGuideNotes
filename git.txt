@@ -1,3 +1,4 @@
+//Git上传代码
 git init 
 git  add  .
 git commit -m "demol"
@@ -6,10 +7,14 @@ git pull origin master
 git push -u origin master
 
 
-find ./ -name .svn -exec rm -rf {} \;
-$ rm -rf .git/
-
-
-
+//去掉Git管理
 git rm -rf --cached TextFieldTextView
 git add TextFieldTextView/*
+
+//本地仓库瘦身
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+git push --force
