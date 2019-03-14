@@ -1,0 +1,2 @@
+split -b 50m IOS开发指南从HELLOWORLD到APPSTORE上架第5版.pdf IOS开发指南从HELLOWORLD到APPSTORE上架第5版.pdf.
+cat IOS开发指南从HELLOWORLD到APPSTORE上架第5版.pdf.* > file.pdf
