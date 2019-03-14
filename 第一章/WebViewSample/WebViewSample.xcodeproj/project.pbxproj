@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0419A1BB2238A3AA008A8369 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419A1BA2238A3AA008A8369 /* RootViewController.swift */; };
+		0419A1BD2238A7B7008A8369 /* hao123.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0419A1BC2238A7B7008A8369 /* hao123.htm */; };
 		043755922237554800523AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043755912237554800523AD6 /* AppDelegate.swift */; };
 		043755942237554800523AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043755932237554800523AD6 /* ViewController.swift */; };
 		043755972237554800523AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043755952237554800523AD6 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0419A1BA2238A3AA008A8369 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0419A1BC2238A7B7008A8369 /* hao123.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hao123.htm; sourceTree = "<group>"; };
 		0437558E2237554800523AD6 /* WebViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043755912237554800523AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043755932237554800523AD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +101,14 @@
 		043755902237554800523AD6 /* WebViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				0419A1BC2238A7B7008A8369 /* hao123.htm */,
 				043755912237554800523AD6 /* AppDelegate.swift */,
 				043755932237554800523AD6 /* ViewController.swift */,
 				043755952237554800523AD6 /* Main.storyboard */,
 				043755982237554A00523AD6 /* Assets.xcassets */,
 				0437559A2237554A00523AD6 /* LaunchScreen.storyboard */,
 				0437559D2237554A00523AD6 /* Info.plist */,
+				0419A1BA2238A3AA008A8369 /* RootViewController.swift */,
 			);
 			path = WebViewSample;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 				0437559C2237554A00523AD6 /* LaunchScreen.storyboard in Resources */,
 				043755992237554A00523AD6 /* Assets.xcassets in Resources */,
 				043755972237554800523AD6 /* Main.storyboard in Resources */,
+				0419A1BD2238A7B7008A8369 /* hao123.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				043755942237554800523AD6 /* ViewController.swift in Sources */,
 				043755922237554800523AD6 /* AppDelegate.swift in Sources */,
+				0419A1BB2238A3AA008A8369 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3497S6VCM3;
 				INFOPLIST_FILE = WebViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3497S6VCM3;
 				INFOPLIST_FILE = WebViewSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
