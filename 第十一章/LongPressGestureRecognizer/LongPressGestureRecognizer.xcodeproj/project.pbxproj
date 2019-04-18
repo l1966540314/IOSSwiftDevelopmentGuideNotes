@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04409C1B226825A800CDDE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04409C1A226825A800CDDE37 /* AppDelegate.swift */; };
+		04409C1D226825A800CDDE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04409C1C226825A800CDDE37 /* ViewController.swift */; };
+		04409C20226825A800CDDE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04409C1E226825A800CDDE37 /* Main.storyboard */; };
+		04409C22226825AA00CDDE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04409C21226825AA00CDDE37 /* Assets.xcassets */; };
+		04409C25226825AA00CDDE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04409C23226825AA00CDDE37 /* LaunchScreen.storyboard */; };
+		04409C30226825AA00CDDE37 /* LongPressGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04409C2F226825AA00CDDE37 /* LongPressGestureRecognizerTests.swift */; };
+		04409C3B226825AA00CDDE37 /* LongPressGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04409C3A226825AA00CDDE37 /* LongPressGestureRecognizerUITests.swift */; };
+		04409C8E22682B1500CDDE37 /* Blend Trash Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 04409C8C22682B1500CDDE37 /* Blend Trash Full.png */; };
+		04409C8F22682B1500CDDE37 /* Blend Trash Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 04409C8D22682B1500CDDE37 /* Blend Trash Empty.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04409C2C226825AA00CDDE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04409C0F226825A800CDDE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04409C16226825A800CDDE37;
+			remoteInfo = LongPressGestureRecognizer;
+		};
+		04409C37226825AA00CDDE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04409C0F226825A800CDDE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04409C16226825A800CDDE37;
+			remoteInfo = LongPressGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04409C17226825A800CDDE37 /* LongPressGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04409C1A226825A800CDDE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04409C1C226825A800CDDE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04409C1F226825A800CDDE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04409C21226825AA00CDDE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04409C24226825AA00CDDE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04409C26226825AA00CDDE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04409C2B226825AA00CDDE37 /* LongPressGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04409C2F226825AA00CDDE37 /* LongPressGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureRecognizerTests.swift; sourceTree = "<group>"; };
+		04409C31226825AA00CDDE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04409C36226825AA00CDDE37 /* LongPressGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04409C3A226825AA00CDDE37 /* LongPressGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		04409C3C226825AA00CDDE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04409C8C22682B1500CDDE37 /* Blend Trash Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blend Trash Full.png"; sourceTree = "<group>"; };
+		04409C8D22682B1500CDDE37 /* Blend Trash Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blend Trash Empty.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04409C14226825A800CDDE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C28226825AA00CDDE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C33226825AA00CDDE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04409C0E226825A800CDDE37 = {
+			isa = PBXGroup;
+			children = (
+				04409C19226825A800CDDE37 /* LongPressGestureRecognizer */,
+				04409C2E226825AA00CDDE37 /* LongPressGestureRecognizerTests */,
+				04409C39226825AA00CDDE37 /* LongPressGestureRecognizerUITests */,
+				04409C18226825A800CDDE37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04409C18226825A800CDDE37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04409C17226825A800CDDE37 /* LongPressGestureRecognizer.app */,
+				04409C2B226825AA00CDDE37 /* LongPressGestureRecognizerTests.xctest */,
+				04409C36226825AA00CDDE37 /* LongPressGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04409C19226825A800CDDE37 /* LongPressGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				04409C8D22682B1500CDDE37 /* Blend Trash Empty.png */,
+				04409C8C22682B1500CDDE37 /* Blend Trash Full.png */,
+				04409C1A226825A800CDDE37 /* AppDelegate.swift */,
+				04409C1C226825A800CDDE37 /* ViewController.swift */,
+				04409C1E226825A800CDDE37 /* Main.storyboard */,
+				04409C21226825AA00CDDE37 /* Assets.xcassets */,
+				04409C23226825AA00CDDE37 /* LaunchScreen.storyboard */,
+				04409C26226825AA00CDDE37 /* Info.plist */,
+			);
+			path = LongPressGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		04409C2E226825AA00CDDE37 /* LongPressGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04409C2F226825AA00CDDE37 /* LongPressGestureRecognizerTests.swift */,
+				04409C31226825AA00CDDE37 /* Info.plist */,
+			);
+			path = LongPressGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		04409C39226825AA00CDDE37 /* LongPressGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04409C3A226825AA00CDDE37 /* LongPressGestureRecognizerUITests.swift */,
+				04409C3C226825AA00CDDE37 /* Info.plist */,
+			);
+			path = LongPressGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04409C16226825A800CDDE37 /* LongPressGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04409C3F226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizer" */;
+			buildPhases = (
+				04409C13226825A800CDDE37 /* Sources */,
+				04409C14226825A800CDDE37 /* Frameworks */,
+				04409C15226825A800CDDE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressGestureRecognizer;
+			productName = LongPressGestureRecognizer;
+			productReference = 04409C17226825A800CDDE37 /* LongPressGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04409C2A226825AA00CDDE37 /* LongPressGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04409C42226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizerTests" */;
+			buildPhases = (
+				04409C27226825AA00CDDE37 /* Sources */,
+				04409C28226825AA00CDDE37 /* Frameworks */,
+				04409C29226825AA00CDDE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04409C2D226825AA00CDDE37 /* PBXTargetDependency */,
+			);
+			name = LongPressGestureRecognizerTests;
+			productName = LongPressGestureRecognizerTests;
+			productReference = 04409C2B226825AA00CDDE37 /* LongPressGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04409C35226825AA00CDDE37 /* LongPressGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04409C45226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizerUITests" */;
+			buildPhases = (
+				04409C32226825AA00CDDE37 /* Sources */,
+				04409C33226825AA00CDDE37 /* Frameworks */,
+				04409C34226825AA00CDDE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04409C38226825AA00CDDE37 /* PBXTargetDependency */,
+			);
+			name = LongPressGestureRecognizerUITests;
+			productName = LongPressGestureRecognizerUITests;
+			productReference = 04409C36226825AA00CDDE37 /* LongPressGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04409C0F226825A800CDDE37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LIUHAO;
+				TargetAttributes = {
+					04409C16226825A800CDDE37 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04409C2A226825AA00CDDE37 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04409C16226825A800CDDE37;
+					};
+					04409C35226825AA00CDDE37 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04409C16226825A800CDDE37;
+					};
+				};
+			};
+			buildConfigurationList = 04409C12226825A800CDDE37 /* Build configuration list for PBXProject "LongPressGestureRecognizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04409C0E226825A800CDDE37;
+			productRefGroup = 04409C18226825A800CDDE37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04409C16226825A800CDDE37 /* LongPressGestureRecognizer */,
+				04409C2A226825AA00CDDE37 /* LongPressGestureRecognizerTests */,
+				04409C35226825AA00CDDE37 /* LongPressGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04409C15226825A800CDDE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04409C25226825AA00CDDE37 /* LaunchScreen.storyboard in Resources */,
+				04409C8E22682B1500CDDE37 /* Blend Trash Full.png in Resources */,
+				04409C22226825AA00CDDE37 /* Assets.xcassets in Resources */,
+				04409C20226825A800CDDE37 /* Main.storyboard in Resources */,
+				04409C8F22682B1500CDDE37 /* Blend Trash Empty.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C29226825AA00CDDE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C34226825AA00CDDE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04409C13226825A800CDDE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04409C1D226825A800CDDE37 /* ViewController.swift in Sources */,
+				04409C1B226825A800CDDE37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C27226825AA00CDDE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04409C30226825AA00CDDE37 /* LongPressGestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04409C32226825AA00CDDE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04409C3B226825AA00CDDE37 /* LongPressGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04409C2D226825AA00CDDE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04409C16226825A800CDDE37 /* LongPressGestureRecognizer */;
+			targetProxy = 04409C2C226825AA00CDDE37 /* PBXContainerItemProxy */;
+		};
+		04409C38226825AA00CDDE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04409C16226825A800CDDE37 /* LongPressGestureRecognizer */;
+			targetProxy = 04409C37226825AA00CDDE37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04409C1E226825A800CDDE37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04409C1F226825A800CDDE37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04409C23226825AA00CDDE37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04409C24226825AA00CDDE37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04409C3D226825AA00CDDE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04409C3E226825AA00CDDE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04409C40226825AA00CDDE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPAA6HBS48;
+				INFOPLIST_FILE = LongPressGestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cdhtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04409C41226825AA00CDDE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPAA6HBS48;
+				INFOPLIST_FILE = LongPressGestureRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cdhtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04409C43226825AA00CDDE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3497S6VCM3;
+				INFOPLIST_FILE = LongPressGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.com.LongPressGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressGestureRecognizer.app/LongPressGestureRecognizer";
+			};
+			name = Debug;
+		};
+		04409C44226825AA00CDDE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3497S6VCM3;
+				INFOPLIST_FILE = LongPressGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.com.LongPressGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressGestureRecognizer.app/LongPressGestureRecognizer";
+			};
+			name = Release;
+		};
+		04409C46226825AA00CDDE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3497S6VCM3;
+				INFOPLIST_FILE = LongPressGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.com.LongPressGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPressGestureRecognizer;
+			};
+			name = Debug;
+		};
+		04409C47226825AA00CDDE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3497S6VCM3;
+				INFOPLIST_FILE = LongPressGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hao.com.LongPressGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPressGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04409C12226825A800CDDE37 /* Build configuration list for PBXProject "LongPressGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04409C3D226825AA00CDDE37 /* Debug */,
+				04409C3E226825AA00CDDE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04409C3F226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04409C40226825AA00CDDE37 /* Debug */,
+				04409C41226825AA00CDDE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04409C42226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04409C43226825AA00CDDE37 /* Debug */,
+				04409C44226825AA00CDDE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04409C45226825AA00CDDE37 /* Build configuration list for PBXNativeTarget "LongPressGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04409C46226825AA00CDDE37 /* Debug */,
+				04409C47226825AA00CDDE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04409C0F226825A800CDDE37 /* Project object */;
+}
