@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046750DF2280369E009BD697 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046750DE2280369E009BD697 /* libsqlite3.tbd */; };
+		046750E1228037BB009BD697 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046750E0228037BB009BD697 /* libsqlite3.0.tbd */; };
 		04A7396C227E84C9009281C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7396B227E84C9009281C8 /* AppDelegate.swift */; };
 		04A7396E227E84C9009281C8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7396D227E84C9009281C8 /* MasterViewController.swift */; };
 		04A73970227E84C9009281C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7396F227E84C9009281C8 /* DetailViewController.swift */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046750DE2280369E009BD697 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		046750E0228037BB009BD697 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		046750E622803AA8009BD697 /* MyNotes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNotes-Bridging-Header.h"; sourceTree = "<group>"; };
 		04A73968227E84C9009281C8 /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A7396B227E84C9009281C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A7396D227E84C9009281C8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046750E1228037BB009BD697 /* libsqlite3.0.tbd in Frameworks */,
+				046750DF2280369E009BD697 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046750DD2280369E009BD697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046750E0228037BB009BD697 /* libsqlite3.0.tbd */,
+				046750DE2280369E009BD697 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		046750E2228038AC009BD697 /* 数据持久化逻辑组件 */ = {
+			isa = PBXGroup;
+			children = (
+				046750E4228039C5009BD697 /* domain */,
+				046750E3228039B7009BD697 /* dao */,
+				046750E622803AA8009BD697 /* MyNotes-Bridging-Header.h */,
+			);
+			name = "数据持久化逻辑组件";
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		046750E3228039B7009BD697 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				04A7399D227E92A3009281C8 /* NoteDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		046750E4228039C5009BD697 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				04A7399B227E8529009281C8 /* Note.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		046750E522803A07009BD697 /* 表示逻辑控件 */ = {
+			isa = PBXGroup;
+			children = (
+				04A7396B227E84C9009281C8 /* AppDelegate.swift */,
+				04A7396D227E84C9009281C8 /* MasterViewController.swift */,
+				04A7396F227E84C9009281C8 /* DetailViewController.swift */,
+				04A73971227E84C9009281C8 /* Main.storyboard */,
+				04A73974227E84CB009281C8 /* Assets.xcassets */,
+				04A73976227E84CB009281C8 /* LaunchScreen.storyboard */,
+				04A73979227E84CB009281C8 /* Info.plist */,
+			);
+			name = "表示逻辑控件";
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
 		04A7395F227E84C9009281C8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +145,7 @@
 				04A73981227E84CB009281C8 /* MyNotesTests */,
 				04A7398C227E84CB009281C8 /* MyNotesUITests */,
 				04A73969227E84C9009281C8 /* Products */,
+				046750DD2280369E009BD697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +162,8 @@
 		04A7396A227E84C9009281C8 /* MyNotes */ = {
 			isa = PBXGroup;
 			children = (
-				04A7396B227E84C9009281C8 /* AppDelegate.swift */,
-				04A7396D227E84C9009281C8 /* MasterViewController.swift */,
-				04A7396F227E84C9009281C8 /* DetailViewController.swift */,
-				04A73971227E84C9009281C8 /* Main.storyboard */,
-				04A73974227E84CB009281C8 /* Assets.xcassets */,
-				04A73976227E84CB009281C8 /* LaunchScreen.storyboard */,
-				04A73979227E84CB009281C8 /* Info.plist */,
-				04A7399B227E8529009281C8 /* Note.swift */,
-				04A7399D227E92A3009281C8 /* NoteDAO.swift */,
+				046750E2228038AC009BD697 /* 数据持久化逻辑组件 */,
+				046750E522803A07009BD697 /* 表示逻辑控件 */,
 			);
 			path = MyNotes;
 			sourceTree = "<group>";
@@ -446,13 +498,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PPAA6HBS48;
-				INFOPLIST_FILE = MyNotes/Info.plist;
+				INFOPLIST_FILE = MyNotes/PresentationLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cdhtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyNotes/PersistenceLayer/MyNotes-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,13 +517,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PPAA6HBS48;
-				INFOPLIST_FILE = MyNotes/Info.plist;
+				INFOPLIST_FILE = MyNotes/PresentationLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cdhtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MyNotes/PersistenceLayer/MyNotes-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
